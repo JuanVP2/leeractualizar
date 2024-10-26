@@ -85,6 +85,7 @@ fun HomeScreen(
                 onClick = navigateToItemEntry,
                 shape = MaterialTheme.shapes.medium,
                 modifier = Modifier.padding(dimensionResource(id = R.dimen.padding_large))
+                
             ) {
                 Icon(
                     imageVector = Icons.Default.Add,

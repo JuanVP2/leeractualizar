@@ -44,6 +44,7 @@ class ItemDaoTest {
         assertEquals(allItems[0], item1)
     }
 
+
     private suspend fun addOneItemToDb() {
         itemDao.insert(item1)
     }
@@ -52,5 +53,9 @@ class ItemDaoTest {
         itemDao.insert(item1)
         itemDao.insert(item2)
     }
+
+
 }
+
+
 
